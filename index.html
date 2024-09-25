@@ -1,64 +1,201 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>
-    HALITIM AMIN 
-  </title>  
-    <body>
-        <h1>
-            WELCOME TO MY FIRST Website
-        </h1>
-        <br>
-        <h2>
-   check my social medai :
-        </h2>
-        <hr>
-        
-        <a href="https://web.facebook.com/profile.php?id=100085928566557" target="_self" title="this my fb profile">
-         <img src="fb.png.png"  height="200" style="margin-right: 100px;">
-        </a>
-     
-        <a href="prfp.html" target="_blank">
-          <img src="web.png" height="180"style="margin-right: 100px;">
-        </a>
-        
-        <a href="mailto:vinnyhalitimb47@gmail.com" target="_blank">
-            <img src="gmail.png.png"  height="170" style="margin-right: 100px; ">
-        </a>
-        <a href="https://www.instagram.com/3boudi___x/">
-          <img src="instgram.png"height="170" style="margin-right: 100px;">
-        </a>
-        <hr>
-    <h2>
-      this is my fav song in this week :
-    </h2>
-    <audio controls loop autoplay muted src="ماشل_أغنية_البداية_2_مدبلجة_باللغة_العربية_『_Bling_Bang_Bang_Born.mp3"></audio>
-        <hr>
-       <h2>
-good video i just wtch:
-<br>
-        <video controls autoplay muted  loop src="short.mp4"height=250 width="300" > </video>
-        <a href="https://www.youtube.com/watch?v=ADd1ODWBD-k">
-          click here to watch full vd
-        </a>
-      </h2>
-      <h3>
-        random video "i made it btw"
-        <br>
-        <video controls muted autoplay loop src="wind.mp4" height="350" width="400"> </video>
-        <br>
-      </h3>
-      <h1>
-        AND THIS FOR U 
-        <br>
-        <a href="lov.html"> hugs :)</a>
-       
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HALITIM AMIN</title>
 
-      </h1>
+  <style>
+    /* General Reset and Basic Styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-       
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
 
+    /* Main Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
 
-    </body>
+    h1, h2, h3 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #e74c3c;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    hr {
+      border: 1px solid #ddd;
+      margin: 40px 0;
+    }
+
+    /* Links */
+    a {
+      text-decoration: none;
+      color: #3498db;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: #e74c3c;
+    }
+
+    /* Image Links */
+    .social-icons img {
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .social-icons img:hover {
+      transform: scale(1.1);
+    }
+
+    /* Grid Layout for Icons */
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-bottom: 40px;
+    }
+
+    /* Media Queries for Mobile Devices */
+    @media (max-width: 768px) {
+      .social-icons {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    /* Audio and Video Containers */
+    .media-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 30px 0;
+    }
+
+    video {
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    /* Call to Action Section */
+    .cta {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta a {
+      background-color: #e74c3c;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 50px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta a:hover {
+      background-color: #3498db;
+    }
+
+    /* Footer Styling */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2c3e50;
+      color: white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+  </style>
 </head>
+
+<body>
+  <div class="container">
+    <h1>WELCOME TO MY WEBSITE</h1>
+
+    <h2>this is my first website i created</h2>
+    <hr>
+
+    <div class="social-icons">
+      <a href="https://web.facebook.com/profile.php?id=100085928566557" title="Facebook Profile">
+        <img src="fb.png.png" height="100" alt="Facebook">
+      </a>
+
+      <a href="prfp.html">
+        <img src="imgs/web.png" height="100" alt="Website Icon">
+      </a>
+
+      <a href="mailto:vinnyhalitimb47@gmail.com">
+        <img src="gmail.png.png" height="100" alt="Gmail">
+      </a>
+
+      <a href="https://www.instagram.com/3boudi___x/">
+        <img src="instgram.png" height="100" alt="Instagram">
+      </a>
+    </div>
+
+    <hr>
+
+    <h2>this is my fav song in this week:</h2>
+    <audio controls loop autoplay muted src="ماشل_أغنية_البداية_2_مدبلجة_باللغة_العربية_『_Bling_Bang_Bang_Born.mp3"></audio>
+
+    <hr>
+
+    <div class="media-container">
+      <div>
+        <h2>good video I just watched:</h2>
+        <video controls autoplay muted loop src="short.mp4" height="250" width="300"></video>
+        <br>
+        <a href="https://www.youtube.com/watch?v=ADd1ODWBD-k">Click here to watch full video</a>
+      </div>
+
+      <div>
+        <h3>random video (I made it btw)</h3>
+        <video controls muted autoplay loop src="wind.mp4" height="350" width="400"></video>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="cta">
+      <h1>AND THIS FOR YOU</h1>
+      <a href="lov.html">Hugs :)</a>
+    </div>
+
+    <hr>
+
+    <footer>
+      <p>© 2024 by HALITIM AMIN. Made with ❤️</p>
+    </footer>
+  </div>
+</body>
 </html>
