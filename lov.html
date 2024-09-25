@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Card</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ffe6e6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      max-width: 400px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .card h1 {
+      color: #ff4d4d;
+      font-size: 2em;
+      margin: 20px 0;
+    }
+
+    .card p {
+      color: #333;
+      font-size: 1.2em;
+    }
+
+    .heart {
+      color: #ff4d4d;
+      font-size: 3em;
+      animation: heartbeat 1s infinite;
+    }
+
+    @keyframes heartbeat {
+      0% { transform: scale(1); }
+      25% { transform: scale(1.1); }
+      50% { transform: scale(1); }
+      75% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="imgs/aya.png" alt="Romantic Picture">
+    <h1>I Love You</h1>
+    <p>You make my world beautiful. <span class="heart">❤️</span></p>
+  </div>
+
+</body>
+</html>
